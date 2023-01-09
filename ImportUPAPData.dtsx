@@ -12,8 +12,9 @@
   DTS:LocaleID="1033"
   DTS:MaxErrorCount="0"
   DTS:ObjectName="ImportUPAPData"
-  DTS:VersionBuild="54"
-  DTS:VersionGUID="{AD4EDE6F-131C-4EBA-B5A6-10A651199A88}">
+  DTS:ProtectionLevel="2"
+  DTS:VersionBuild="55"
+  DTS:VersionGUID="{C50B76BA-B29E-44D0-84B2-E59ABCAC2F26}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -53,10 +54,16 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=dj-prod-sql-enterprise-01.database.windows.net;User ID=pullapart;Initial Catalog=Prod-DB-DynamicsFOEntityStore-01;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-ImportUPAPData-{8359D8C3-F82C-4CB3-812B-6E953FCDD712}dj-prod-sql-enterprise-01.database.windows.net.Prod-DB-DynamicsFOEnt;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA4YbcRRt60aG4dWiUE3x/AAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACrWaqul255m258sruFF0DVAAAAAASAAACgAAAAEAAAAC7qAwYaCJjlKin1NFVLF+1oAAAAos2YrU8yTam+C4m92E4NQc0QivKTjLqZkRK9M6DrhgFubWy2qFY8Bmfc/RFY64g5CszA4RWBKPHt2uQetSVj9QDpylZVtFv/PUPkFQwRUIn65cHkxhOBtYNPjJY08/9B5chz8c1qLfEUAAAAO9zxdYCgHoFJLiHpeNDw43anRAI</DTS:Password>
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="oiHeURAF8w0="
+            IV="U+iu1W3DhQaE7IsDmH7ZIQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>U+iu1W3DhQaE7IsDmH7ZIUGMBOl2aMc6yp1KQ7xXopZsd3lkoLIjGBVWpm5MzvmMibIrU6zsuTtL2Ulg09ZrDW7RMYv4Qov1F7PC+v9eGdoNJRWabR9xrIEAK/9YV2pTsXc3rOjB1ejVl8swgSPcgujFnZzIpkiQ7TO/BDT0UOREHG6ceLpFKnf0R/nUxMmlyJqRIFi7ZBBKiwmE6om5FPH1+ErS3uITLOKSUqbwmSU=</CipherValue>
+            </CipherData>
+          </EncryptedData>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -70,10 +77,16 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=dj-prod-sql-enterprise-01.database.windows.net;User ID=pullapart;Initial Catalog=Prod-DB-UPAPVPIS-01;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-ImportUPAPData-{8359D8C3-F82C-4CB3-812B-6E953FCDD712}dj-prod-sql-enterprise-01.database.windows.net.Prod-DB-DynamicsFOEnt;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA4YbcRRt60aG4dWiUE3x/AAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD7YGOEMX13ABTm4ZqvkNSmAAAAAASAAACgAAAAEAAAAOhBE+orJJFkOckNsZuU/JVoAAAATMHOaiufc/hd8wQEhX7P0hV+uWI5xcJACIa2ihiuRH1ireXp5cgkTWkiDbVvqMI2pNkucgi5V0Q5fwYryWvOPvksPHr1pUMLJivU3KlQSQSZyrKFBUDco+7o/mLypVkZmwOoLsEBHa4UAAAAFM8AWFjYxmsbk2zm35hejlhu64Q</DTS:Password>
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="i7F6BF0PAe8="
+            IV="AJgvB4U6Fp3T98xn+61fRA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>AJgvB4U6Fp3T98xn+61fRFTByts9fP6O27ulSntqujJTDR1tlFfilV38Z+GxzOkgoMYmJ8USCuFgYtm0AIQMGGSaaFNeY5ghkQLIljkhFHBBrFkljEVAwTtcq8CycHVANnytruvaVlb73PL+co+YSb1nfmUQ/CXBf8DO0qBuCWlgn9mHCv8rde+BXo8oTS7c/31FgSzctqJo7lwa72kSAMgY4XLXCg6qVd2poK9IZ/s=</CipherValue>
+            </CipherData>
+          </EncryptedData>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>

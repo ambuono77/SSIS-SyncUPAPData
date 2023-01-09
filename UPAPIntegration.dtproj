@@ -12,11 +12,11 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{657c9453-30ce-46e9-982f-2552ca6be94e}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">UPAPIntegration</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">BUONO</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA4YbcRRt60aG4dWiUE3x/AAAAAACAAAAAAADZgAAwAAAABAAAABxrKULR+kZNJ/oy5TCgRTEAAAAAASAAACgAAAAEAAAAFxvzsnuetNcFIpMHflv+UqIAAAABVldBSMaGmcUg4F3NGRLkjeI8aurhcqymyX9XQMF5Mcy2g+/CsseeX36ZGtBTiiHmkoQbVl0M6kmP3ssxE2lozQYsyA7FttqNlNZOliyrZbp5P44vmnzvbJwek+IDWXWnuZIUE9YEzRpwliVdiNgoWhe2Gwsn6+1h0+MM5aey6X4Kr9GA3ufhhQAAAB1ud5DGUtoV2ZuTkTRjGLYLeRn8w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="Jb+T+95kq6I=" SSIS:IV="a7ZGB4i3Aa6yThXZx+4FbQ==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">cyZl/7ggEwbGvurURkpPoXfTDuoMfnO19KK/CnPsNBgYAI4xiWM0HP+fUliq8riNsV7covkKtzkAbnZAJ6srAd45tUMSLeTmaOuBPHGX8xD9BpwOz0CdB7tP2wEwodhfaBVdWkWVZBOf9w9d1OmJ7cMecovxakWiGUok+qPyBiETM0g11DwW0JO3G0/xDa3z</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,13 +42,13 @@
                 <SSIS:Property SSIS:Name="Name">ImportUPAPData</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">54</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">55</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{AD4EDE6F-131C-4EBA-B5A6-10A651199A88}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{C50B76BA-B29E-44D0-84B2-E59ABCAC2F26}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">SSIS Package Description</SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.DEST_store.pullapart.com.DBAAdmin.ConnectByProxy">
